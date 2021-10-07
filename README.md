@@ -1,5 +1,7 @@
 # Resume
 
+The current build of the resume application is available at [resume.calebjonasson.com](http://resume.calebjonasson.com)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
 
 ## Development server
