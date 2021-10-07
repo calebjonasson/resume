@@ -1,0 +1,535 @@
+<!-- This seems to be working. -->
+
+
+<!-- Container -->
+<div class="container" fxLayout="column" fxLayoutGap="10px" fxLayoutAlign="center">
+    <!-- Row -->
+    <div fxLayout="row wrap" fxLayoutGap="10px grid">
+        <!-- Columms -->
+        <!-- <div > -->
+            <div fxFlex="30%" fxFlex.sm="100%" fxLayoutAlign.sm="center">
+                <img class="intro-banner-image" src="./assets/images/calebjonasson.png" />
+            </div>
+            <div flFlex="60%" fxFlex.sm="100%" fxLayout="column" fxLayoutAlign.sm="center" class="home-hello-container">
+                <div>
+                    <span class="big-text">Hello!</span>
+                </div>
+                <div>
+                    <span class="sub-text color-accent">Please allow me to introduce myself:</span>
+                </div>
+            </div>
+        <!-- </div> -->
+
+        <div fxFlex="100%" class="mb-20">
+            <div class="mt-10 font-s18">
+                <p>My name is Caleb Jonasson (He/Him).</p>
+                <p>I am a skilled Software Engineer with over 12 years of professional experience looking for a long term
+                    remote opportunity in core services, microservices, big data architecture/operations or similar backend positions.</p>
+
+
+                <mat-chip-list aria-label="About">
+                    <mat-chip>Location: Canada/Remote</mat-chip>
+                    <mat-chip>Focus: Backend</mat-chip>
+                    <mat-chip>Looking: Full Time</mat-chip>
+                    <mat-chip>Available for Hire</mat-chip>
+                </mat-chip-list>
+            </div>
+        </div>
+
+        <div fxFlex="100%" class="mb-20 list-container section">
+            <h2>Qualifications</h2>
+            <div class="mt-10">
+                <span>12+ years Backend Development</span>
+            </div>
+            <div class="mt-10">
+                <span>2 years of Lead Experience</span>
+            </div>
+            <div class="mt-10">
+                <span>Studied Computer Science - Thompson Rivers University</span>
+            </div>
+            <div class="mt-10">
+                <span>Self directed &amp; well organized.</span>
+            </div>
+            <div class="mt-10">
+                <span>Constantly looking to learn, experiment &amp; grow</span>
+            </div>
+            <div class="mt-10">
+                <span>Strong understanding of Object Oriented Software &amp; Design Patterns</span>
+            </div>
+            <div class="mt-10">
+                <span>Advocate for Unit Tests, Code Reviews &amp; Process</span>
+            </div>
+            <div class="mt-10">
+                <span>Great Attitude</span>
+            </div>
+        </div>
+
+        <div fxFlex="100%" class="mb-20 section">
+            <h2>Interests</h2>
+            <div class="mt-10">
+                <div>
+                    <span class="font-s18">Web Services</span>
+                    <span fxFlex></span>
+                    <span>100%</span>
+                </div>
+                <mat-progress-bar mode="determinate" color="accent" value="100" class="no-print"></mat-progress-bar>
+            </div>
+            <div class="mt-10">
+                <div>
+                    <span class="font-s18">Microservices</span>
+                    <span fxFlex></span>
+                    <span>100%</span>
+                </div>
+                <mat-progress-bar mode="determinate" color="accent" value="100" class="no-print"></mat-progress-bar>
+            </div>
+            <div class="mt-10">
+                <div>
+                    <span class="font-s18">Reactive Programming</span>
+                    <span fxFlex></span>
+                    <span>95%</span>
+                </div>
+                <mat-progress-bar mode="determinate" color="accent" value="95" class="no-print"></mat-progress-bar>
+            </div>
+            <div class="mt-10">
+                <div>
+                    <span class="font-s18">Data Structures &amp; Algorithms</span>
+                    <span fxFlex></span>
+                    <span>86%</span>
+                </div>
+                <mat-progress-bar mode="determinate" color="accent" value="86" class="no-print"></mat-progress-bar>
+            </div>
+            <div class="mt-10">
+                <div>
+                    <span class="font-s18">Machine Learning</span>
+                    <span fxFlex></span>
+                    <span>85%</span>
+                </div>
+                <mat-progress-bar mode="determinate" color="accent" value="85" class="no-print"></mat-progress-bar>
+            </div>
+            <div class="mt-10">
+                <div>
+                    <span class="font-s18">Databases</span>
+                    <span fxFlex></span>
+                    <span>80%</span>
+                </div>
+                <mat-progress-bar mode="determinate" color="accent" value="80" class="no-print"></mat-progress-bar>
+            </div>
+            <div class="mt-10">
+                <div>
+                    <span class="font-s18">UI &amp; UX</span>
+                    <span fxFlex></span>
+                    <span>60%</span>
+                </div>
+                <mat-progress-bar mode="determinate" color="accent" value="60" class="no-print"></mat-progress-bar>
+            </div>
+        </div>
+        
+        <div fxFlex="100%" class="section">
+            <h2>Work Experience</h2>
+            <div class="mt-10">
+                <mat-card>
+                    <mat-card-title>
+                        <span>Personal Fitness <small>Founder</small></span>
+                        <span fxFlex></span>
+                        <span class="f60 color-accent">Nov 2017 - Oct 2021</span>
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>Created a web application from the ground up allowing personal trainers to manage clients, assign programs and workouts, manage their team, message and notify their clients as well as sell services and programs through an online storefront.</p>
+                        <p>Did everything from videography to writing a microservice architecture to scale on Amazon Web Services.</p>
+                        <p>The platform was created using Angular 8 and Spring boot for the microservices. It uses Ehcache, Eureka, AWS Aurora Serverless, Spring Cloud Config and runs containerized on the Amazon Elastic Container Service to allow for burst scaling of individual services at peak gym hours. The client library is hosted using Cloudfront as well the APIs are routed through Cloudfront increasing call cache and availability.</p>
+                        <p>The application upon initial release has not yet had down time even when pushing changes thanks to versioned APIs and AWS services..</p>        
+                    </mat-card-content>
+                    <mat-card-footer>
+                        <mat-chip-list aria-label="">
+                            <mat-chip>AWS</mat-chip>
+                            <mat-chip>AWS/ECS</mat-chip>
+                            <mat-chip>MongoDB</mat-chip>
+                            <mat-chip>Elasticache</mat-chip>
+                            <mat-chip>Elastisearch</mat-chip>
+                            <mat-chip>OpenFeign</mat-chip>
+                            <mat-chip>Java</mat-chip>
+                            <mat-chip>Springboot</mat-chip>
+                            <mat-chip>Grafana</mat-chip>
+                            <mat-chip>InfluxDB</mat-chip>
+                            <mat-chip>Docker</mat-chip>
+                            <mat-chip>Consul</mat-chip>
+                            <mat-chip>Traefik</mat-chip>
+                            <mat-chip>Stripe</mat-chip>
+                        </mat-chip-list>
+                    </mat-card-footer>
+                </mat-card>
+            </div>
+
+            <div class="mt-10">
+                <mat-card>
+                    <mat-card-title>
+                        <span>Iron Stag inc. <small>Founder/Consultant</small></span>
+                        <span fxFlex></span>
+                        <span class="f60 color-accent">Nov 2017 - Oct 2021</span>
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>Iron Stag Software House is my own incorporated entity and owner of Personal Fitness.</p>
+                        <p>Under the banner of Iron Stag Inc. I worked with multiple clients to investigate, consult and implement solutions for a multitude of 
+                            business cases. Most clients mentioned below were clients of RFG Software</p>
+
+                        <h3>RFG Software</h3>
+                        <p>Worked closely with RFG Software as a consultant and lead software engineer from the hiring process to managing some of their clients, budgets and expectations.</p>
+
+                        <h3>Pixton</h3>
+                        <p>Investigated their node platform and consulted on improvements with caching mechanisms as well as schema improvements.</p>
+
+                        <h3>Dreambox</h3>
+                        <p>Worked on tooling used to migrate and automate translations. Worked on mechanisms to convert their learning games platform from flash to javascript.</p>
+
+                        <h3>Xgolf</h3>
+                        <p>This project started with a company looking to modernize their golf simulator hardware &amp; software to allow their franchises to manage their
+                            simulators and clients to easily connect to the simulators to track progress and improve their game.</p>
+                        <p>During the two years of this project I architected and modelled the interactions between web, mobile and simulator clients, franchises, game data and admins. 
+                            This involved creating many microservices with the orchestration of a schema per service.</p>
+                        <p>Along with architecting a cloud solution I was also in charge of implementing authentication, configuration, notification, discovery and game services.
+                            These items contained the following features: Location based searching, user authentication, franchise management, customer support/admin endpoints, game sessions and much more.</p>
+                    </mat-card-content>
+                    <mat-card-footer>
+                        <mat-chip-list aria-label="">
+                            <mat-chip>AWS</mat-chip>
+                            <mat-chip>AWS/ECS</mat-chip>
+                            <mat-chip>AWS/RDS</mat-chip>
+                            <mat-chip>Springboot</mat-chip>
+                            <mat-chip>Spring Cloud Configuration</mat-chip>
+                            <mat-chip>OpenFeign</mat-chip>
+                            <mat-chip>Java</mat-chip>
+                            <mat-chip>PHP</mat-chip>
+                            <mat-chip>AWS/Redshift</mat-chip>
+                            <mat-chip>AWS/Firehose</mat-chip>
+                            <mat-chip>AWS/MQ</mat-chip>
+                            <mat-chip>Angular</mat-chip>
+                            <mat-chip>React-Native</mat-chip>
+                            <mat-chip>C++</mat-chip>
+                        </mat-chip-list>
+                    </mat-card-footer>
+                </mat-card>
+            </div>
+
+            <div class="mt-10">
+                <mat-card>
+                    <mat-card-title>
+                        <img src="assets/images/disney-written.png" height="34px" class="card-title-image no-print"/>
+                        <img src="assets/images/disney-written-black.png" height="40px" class="card-title-image print"/>
+                        
+                        <span><small>Software Engineer</small></span>
+                        <span fxFlex></span>
+                        <span class="f60 color-accent">Nov 2011 - Nov 2017</span>
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>Built internal software that allows support representatives to manage profile information, handle micro transactions, subscriptions, 
+                            communicate with customers as well as moderate display names, chat, user generated content (images, videos, in game creations), flagged 
+                            behavior and incidents to ensure that the online games are a safe and trusted space for all ages. These features are available across 
+                            an array of Disney Products including ABC Studios, Parks & Resorts, ESPN, Disney Interactive, Starwars and Disney+. Each product may 
+                            be built and designed by different developers in different corporate structures which means that onboarding various clients with their 
+                            existing systems requires a lot of data modelling and well written API specifications.</p>
+
+                        <p>I spent a lot of time working with external teams remotely. Often this meant working with 2-3 different teams (sometimes 5), managing 
+                            requirements and expectations as well as providing information on integrations.</p>
+
+                        <p>My role as one of two server side software engineers on the team was to design specifications, develop software, work with our business 
+                            partners through understanding what they are looking for in support software to the final steps of integration as well as everything in 
+                            between.</p>
+
+                        <h3>Playspan Integration</h3>
+                        <p>Worked with an external team, Playpsan (since aquired by Visa), to query micro transactions, subscriptions, offer complimentary items and
+                            in game currency or memberships through the customer support platform.</p>
+
+                        <p>Modelled transaction information to work with many payment providers (Google Wallet, Paypal) to be able to offer the same user experience
+                            in the tool depending on the product.</p>
+
+                        <h3>Chat Moderation Service</h3>
+                        <p>Designed and implemented a chat moderation support system that can query all of the chat from a user, and the chat from those in the same
+                            digital space across multiple Disney products.</p>
+
+                        <p>The chat moderation system allows moderators to automatically escalate and generate reports to their team leader and from there to local law
+                            enforcement. These reports would would be generated using information about the user in questions as well as their chat history, login locations, ips, etc.</p>
+
+                        <h3>Health Checking Library</h3>
+                        <p>Designed and implemented a health-checking library for spring MVC that allows verbose breakdowns of system information. This gave techops the
+                            ability to see if a datasource, cache, service, or external API was throwing errors.</p>
+
+                        <h3>Agnostic Account Service</h3>
+                        <p>Architected an agnostic account system that allowed products with differing account models to have their content supported in the moderation tools.
+                            This meant designing a future proof and highly configurable and expandable system that our customer support representatives can use to do things
+                            like manage a players inventory or view a guest reservation at one of the parks.</p>
+
+                        <h3>User Generated Content Moderation Service</h3>
+                        <p>Architected and implemented a user generated content moderation tool that allowed our integration partners (Disney+, Disney.com, Starwars, ESPN,
+                            Disney Consumer Products) to moderate anything digital that we could think of. This was originally scoped to be an image moderation tool for Club Penguin but ended up being built to support many media types including images/video and text. Our integrating partners could use this tool for flexibly billed moderation of a forum comment that was flagged to a contest where users submit videos of their children singing a song from the movie Frozen.</p>
+
+                        <h3>Disney.com prototype and Salesforce Integration</h3>
+                        <p>Created the initial prototype of the Disney.com support website and worked with a 3rd party to integrate with help articles as well as deflection
+                            flows and customer support chat.</p>
+                        
+                        <h3>Security Liaison</h3>
+                        <p>Worked with internal Disney security teams to ensure that our product, features &amp; tools exceeded guidelines.</p>
+
+                        <h3>Redemption Service - Club Penguin</h3>
+                        <p>Acted as a product owner for internal software used by marketting and community administors to provide in game redemption.</p>
+
+                    </mat-card-content>
+                    <mat-card-footer>
+                        <mat-chip-list aria-label="">
+                            <mat-chip>Google App Engine</mat-chip>
+                            <mat-chip>Spring MVC</mat-chip>
+                            <mat-chip>Content Moderation</mat-chip>
+                            <mat-chip>Redis</mat-chip>
+                            <mat-chip>MySQL</mat-chip>
+                            <mat-chip>Queues</mat-chip>
+                            <mat-chip>Nginx</mat-chip>
+                            <mat-chip>Java</mat-chip>
+                            <mat-chip>PHP</mat-chip>
+                        </mat-chip-list>
+                    </mat-card-footer>
+                </mat-card>
+            </div>
+
+            <div class="mt-10">
+                <mat-card>
+                    <mat-card-title>
+                        <span>Greater Than Technology <small>Web Applications Developer</small></span>
+                        <span fxFlex></span>
+                        <span class="f60 color-accent">Oct 2010 - Oct 2011</span>
+                    </mat-card-title>
+                    <mat-card-content>
+                        <h3>ShareMy360</h3>
+                        <p>Designed and coded a web application that is essentially a youtube like experience for custom built virtual tours for properties and vehicles.</p>
+
+                        <h3>Thanks a Million</h3>
+                        <p>Wrote an application that allowed users to hand someone a "Thank you" token which when entered online showed a path of where it started and where it ended up.</p>
+                    </mat-card-content>
+                    <mat-card-footer>
+                        <mat-chip-list aria-label="">
+                            <mat-chip>AWS</mat-chip>
+                            <mat-chip>AWS/ECS</mat-chip>
+                            <mat-chip>MongoDB</mat-chip>
+                            <mat-chip>Elasticache</mat-chip>
+                            <mat-chip>Elastisearch</mat-chip>
+                            <mat-chip>OpenFeign</mat-chip>
+                            <mat-chip>Java</mat-chip>
+                            <mat-chip>Springboot</mat-chip>
+                            <mat-chip>Grafana</mat-chip>
+                            <mat-chip>InfluxDB</mat-chip>
+                            <mat-chip>Docker</mat-chip>
+                            <mat-chip>Consul</mat-chip>
+                            <mat-chip>Traefik</mat-chip>
+                        </mat-chip-list>
+                    </mat-card-footer>
+                </mat-card>
+            </div>
+        </div>
+
+        <div fxFlex="100%" class="mt-20">
+            <mat-divider></mat-divider>
+        </div>
+
+        <div fxFlex="100%" class="section">
+            <h2>Technologies</h2>
+            <p>Below is a list of technologies I have experience with. There are many more but this resume is already getting out of hand.</p>
+            <div class="mt-10" fxLayout="row wrap">
+                <div fxFlex="33%" fxFlex.xs="50%">
+                    <h3>Languages</h3>
+                    <p>Java</p>
+                    <p>PHP</p>
+                    <p>Python</p>
+                    <p>C#</p>
+                    <p>C</p>
+                </div>
+                <div fxFlex="33%" fxFlex.xs="50%">
+                    <h3>Frameworks</h3>
+                    <p>Springboot/MVC</p>
+                    <p>Micronaut</p>
+                    <p>Zend</p>
+                    <p>TensorFlow</p>
+                    <p>Flask</p>
+                </div>
+                <div fxFlex="33%" fxFlex.xs="50%">
+                    <h3>Datastores</h3>
+                    <p>MySQL</p>
+                    <p>Redis</p>
+                    <p>Cassandra</p>
+                    <p>MongoDB</p>
+                    <p>ElasticSearch</p>
+                    <p>ElastiCache</p>
+                    <p>InfluxDB</p>
+                </div>
+                <div fxFlex="33%" fxFlex.xs="50%">
+                    <h3>Communication</h3>
+                    <p>Streams</p>
+                    <p>Kafka</p>
+                    <p>AWS MQ</p>
+                    <p>Circuit Breaker</p>
+                    <p>Ribbons</p>
+                    <p>GraphQL</p>
+                </div>
+                <div fxFlex="33%" fxFlex.xs="50%">
+                    <h3>Operations</h3>
+                    <p>Grafana</p>
+                    <p>Jenkins</p>
+                    <p>Docker</p>
+                    <p>Kubernetes</p>
+                </div>
+                <div fxFlex="33%" fxFlex.xs="50%">
+                    <h3>Front End</h3>
+                    <p>Angular</p>
+                    <p>React-Native</p>
+                    <p>Scss</p>
+                    <p>Javascript</p>
+                    <p>Typescript</p>
+                </div>
+            </div>
+        </div>
+
+        <div fxFlex="100%" class="mt-20">
+            <mat-divider></mat-divider>
+        </div>
+
+        <div fxFlex="100%" class="section">
+            <h2>Personal Projects</h2>
+            <p>Outside of the office I am constantly working on side projects, some large and some small, here are a few of the ones that are worth mentioning.</p>
+            <div class="mt-10">
+                <mat-card>
+                    <mat-card-title>
+                        <span>RedRock Framework</span>
+                        <span fxFlex></span>
+                        <span class="f60 color-active">Active</span>
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>Redrock is a Springboot based framework which has a series of maven projects that act as parents. These parent projects give
+                            very discrete features depending on the project used.</p>
+                        <p>This framework project was created when rewriting the Personal Fitness web services. They include numerous libraries for
+                            pre build domains, ACL management/mappers, Machine ID generation. Internal Rate Limitting libraries as well as some other
+                            projects I'm excited to work on.</p>
+                    </mat-card-content>
+                    <mat-card-footer>
+                        <mat-chip-list aria-label="">
+                            <mat-chip>Springboot</mat-chip>
+                            <mat-chip>Zookeeper</mat-chip>
+                            <mat-chip>Kafka</mat-chip>
+                            <mat-chip>Elasticsearch</mat-chip>
+                            <mat-chip>MongoDB</mat-chip>
+                            <mat-chip>Reactive</mat-chip>
+                            <mat-chip>Kubernetes</mat-chip>
+                        </mat-chip-list>
+                    </mat-card-footer>
+                </mat-card>
+            </div>
+
+            <div class="mt-10">
+                <mat-card>
+                    <mat-card-title>
+                        <span>Foundations Data Flow</span>
+                        <span fxFlex></span>
+                        <span class="f60 color-active">Active</span>
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>Foundations Data Flow is a web crawler and data processing service originally written as a means of getting and transforming
+                            data for machine learning work flows.</p>
+                        <p>It use the previously mentioned RedRock framework as a basis and uses emulated browsers and rest clients as a way of
+                            obtaining remote data. At it's heart the project uses Reactive processing to handle the flow of information using
+                            Kafka and direct streaming with back pressure.</p>
+                    </mat-card-content>
+                    <mat-card-footer>
+                        <mat-chip-list aria-label="">
+                            <mat-chip>Springboot</mat-chip>
+                            <mat-chip>Zookeeper</mat-chip>
+                            <mat-chip>Kafka</mat-chip>
+                            <mat-chip>Elasticsearch</mat-chip>
+                            <mat-chip>MongoDB</mat-chip>
+                            <mat-chip>Reactive</mat-chip>
+                            <mat-chip>Kubernetes</mat-chip>
+                            <mat-chip>Selenium</mat-chip>
+                            <mat-chip>Redis</mat-chip>
+                            <mat-chip>Consul</mat-chip>
+                            <mat-chip>Grafana</mat-chip>
+                            <mat-chip>React-Native</mat-chip>
+                            <mat-chip>GraphQL</mat-chip>
+                            <mat-chip>Hateaos</mat-chip>
+                        </mat-chip-list>
+                    </mat-card-footer>
+                </mat-card>
+            </div>
+
+            <div class="mt-10">
+                <mat-card>
+                    <mat-card-title>
+                        <span>Personal Lab/Network</span>
+                        <span fxFlex></span>
+                        <span class="f60 color-active">Active</span>
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>My internal lab environment is stored in an 18U rack. Mainly powered by 2x AMD 3600 machines, an Intel i3 machine
+                            and an Atom based NAS.</p>
+                        <p>Consists of many segregated networks.</p>
+                        <p>Fault tolerant switches. No fancy spine and leaf. It's just 2 switches backhauling 4 servers.</p>
+                        <p>Self hosting: Git, Jenkins, Nexus, Consul, Mongo, Kafka, Zookeeper, Traefik, HAProxy, CoreDNS, currently 64 containers across 21 stacks.</p>
+                        <p>10Gb networking to servers and work station.</p>
+                    </mat-card-content>
+                    <mat-card-footer>
+                        <mat-chip-list aria-label="">
+                            <mat-chip>Springboot</mat-chip>
+                            <mat-chip>Zookeeper</mat-chip>
+                            <mat-chip>Kafka</mat-chip>
+                            <mat-chip>Elasticsearch</mat-chip>
+                            <mat-chip>MongoDB</mat-chip>
+                            <mat-chip>Reactive</mat-chip>
+                            <mat-chip>Kubernetes</mat-chip>
+                            <mat-chip>Selenium</mat-chip>
+                            <mat-chip>Redis</mat-chip>
+                            <mat-chip>Consul</mat-chip>
+                            <mat-chip>Grafana</mat-chip>
+                        </mat-chip-list>
+                    </mat-card-footer>
+                </mat-card>
+            </div>
+
+            <div class="mt-10">
+                <mat-card>
+                    <mat-card-title>
+                        <span>Lirkr</span>
+                        <span fxFlex></span>
+                        <span class="f60 color-warn">Retired 2013</span>
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>Lirkr was a project that started when I was 16 and looking to create my own search engine.</p>
+                        <p>The project was PHP based and performed static crawling using many Dreamhost servers. It was a great lesson in how important caching and batch operations are.</p>
+                        <p>Project was turned into an RSS client after 300GB of URLs and page data crashed a shared Dreamhost MySQL server.</p>
+                        <p>Crawling and playing with large multi TB data sets continued on a private server.</p>
+                    </mat-card-content>
+                    <mat-card-footer>
+                        <mat-chip-list aria-label="">
+                            <mat-chip>Angularjs</mat-chip>
+                            <mat-chip>MySQL</mat-chip>
+                            <mat-chip>PHP</mat-chip>
+                        </mat-chip-list>
+                    </mat-card-footer>
+                </mat-card>
+            </div>
+
+            <div class="mt-10">
+                <mat-card>
+                    <mat-card-title>
+                        <span>IADBs</span>
+                        <span fxFlex></span>
+                        <span class="f60 color-warn">Retired 2010</span>
+                    </mat-card-title>
+                    <mat-card-content>
+                        <p>The Internet Audio Database was a means of creating recommendations for users by having them upload their Itunes library.xml file.
+                            The application would list and show their music and build recommendations based on other users playlists and BPM.</p>
+                    </mat-card-content>
+                    <mat-card-footer>
+                        <mat-chip-list aria-label="">
+                            <mat-chip>MySQL</mat-chip>
+                            <mat-chip>PHP</mat-chip>
+                        </mat-chip-list>
+                    </mat-card-footer>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>
